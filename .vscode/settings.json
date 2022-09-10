@@ -2,7 +2,10 @@
     "editor.tabSize": 2,
     "cSpell.language": "en-GB",
     "cSpell.words": [
+        "codegen",
         "davinci",
-        "openai"
+        "openai",
+        "Pipeable",
+        "vars"
     ]
 }

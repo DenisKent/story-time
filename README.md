@@ -40,18 +40,25 @@ Make sure to deploy the output of `remix build`
 - `build/`
 - `public/build/`
 
+### Changing the db
+
+- Add to architecture diagram
+- Add to `app\datastore\schema.ts`
+- run `npm run script:store:codegen`
+
 ### Architecture
 
 ```mermaid
 erDiagram
-    scene {
+    Scene {
+        string name
         string title
         string description
     }
-    automatic_progression {
-        int progression_delay_in_ms
+    AutomaticProgression {
+        int progressionDelayInMs
     }
-    user_input {
+    UserInput {
         string type
         string label
     }
@@ -59,11 +66,11 @@ erDiagram
 
     }
 
-    scene ||--o| automatic_progression: progresses_using
-    automatic_progression ||--|| scene: progresses_to
-    scene ||--o{ user_input: progresses_using
-    user_input||--o|scene: progresses_to
+    Scene ||--o| AutomaticProgression: PROGRESSES_USING
+    AutomaticProgression ||--|| Scene: PROGRESSES_TO
+    Scene ||--o{ UserInput: PROGRESSES_USING
+    UserInput||--o|Scene: PROGRESSES_TO
 
-    user_input ||--o| model: feeds_into
-    model ||--|{ scene: progresses_to
+    UserInput ||--o| model: feeds_into
+    model ||--|{ scene: PROGRESSES_TO
 ```

@@ -7,7 +7,9 @@
     "start": "remix-serve build",
     "models:list": "ts-node -r dotenv/config ./app/ai/scripts/listAllFilesAndFineTunes.ts",
     "models:create": "ts-node -r dotenv/config ./app/ai/scripts/createAllFineTunes.ts",
-    "models:delete": "ts-node -r dotenv/config ./app/ai/scripts/deleteAllFineTunes.ts"
+    "models:delete": "ts-node -r dotenv/config ./app/ai/scripts/deleteAllFineTunes.ts",
+    "script:store:populate": "ts-node -r dotenv/config ./app/scripts/store/populate.ts",
+    "script:store:codegen": "ts-node -r dotenv/config ./app/scripts/store/codegenTypes"
   },
   "dependencies": {
     "@remix-run/node": "^1.7.0",
