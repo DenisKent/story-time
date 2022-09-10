@@ -1,0 +1,31 @@
+{"prompt":"talk to the barman\n\n###\n\n","completion":" talk"}
+{"prompt":"speak with the barman\n\n###\n\n","completion":" talk"}
+{"prompt":"speak with him\n\n###\n\n","completion":" talk"}
+{"prompt":"talk\n\n###\n\n","completion":" talk"}
+{"prompt":"say hi\n\n###\n\n","completion":" talk"}
+{"prompt":"go up to the barman\n\n###\n\n","completion":" talk"}
+{"prompt":"approach him\n\n###\n\n","completion":" talk"}
+{"prompt":"make the barman aware of my presence\n\n###\n\n","completion":" talk"}
+{"prompt":"hello barman\n\n###\n\n","completion":" talk"}
+{"prompt":"hey there\n\n###\n\n","completion":" talk"}
+{"prompt":"ask the barman\n\n###\n\n","completion":" talk"}
+{"prompt":"can i have a drink\n\n###\n\n","completion":" talk"}
+{"prompt":"where am i\n\n###\n\n","completion":" talk"}
+{"prompt":"attack the barman\n\n###\n\n","completion":" attack"}
+{"prompt":"hit the barman\n\n###\n\n","completion":" attack"}
+{"prompt":"stab him\n\n###\n\n","completion":" attack"}
+{"prompt":"push the barman over\n\n###\n\n","completion":" attack"}
+{"prompt":"do the barman harm\n\n###\n\n","completion":" attack"}
+{"prompt":"threaten the barman\n\n###\n\n","completion":" attack"}
+{"prompt":"burn the barman\n\n###\n\n","completion":" attack"}
+{"prompt":"steal from the bar\n\n###\n\n","completion":" take"}
+{"prompt":"pick the pocket\n\n###\n\n","completion":" take"}
+{"prompt":"steal from the bar\n\n###\n\n","completion":" take"}
+{"prompt":"steal a drink\n\n###\n\n","completion":" take"}
+{"prompt":"walk out of the bar\n\n###\n\n","completion":" leave"}
+{"prompt":"get out\n\n###\n\n","completion":" leave"}
+{"prompt":"run away\n\n###\n\n","completion":" leave"}
+{"prompt":"do jumping jacks\n\n###\n\n","completion":" other"}
+{"prompt":"do nothing\n\n###\n\n","completion":" other"}
+{"prompt":"fart\n\n###\n\n","completion":" other"}
+{"prompt":"do anything else\n\n###\n\n","completion":" other"}

@@ -1,0 +1,32 @@
+model_name,prompt,completion
+pub_entry,talk to the barman,talk
+pub_entry,speak with the barman,talk
+pub_entry,speak with him,talk
+pub_entry,talk,talk
+pub_entry,say hi,talk
+pub_entry,go up to the barman,talk
+pub_entry,approach him,talk
+pub_entry,make the barman aware of my presence,talk
+pub_entry,hello barman,talk
+pub_entry,hey there,talk
+pub_entry,ask the barman,talk
+pub_entry,can i have a drink,talk
+pub_entry,where am i,talk
+pub_entry,attack the barman,attack
+pub_entry,hit the barman,attack
+pub_entry,stab him,attack
+pub_entry,push the barman over,attack
+pub_entry,do the barman harm,attack
+pub_entry,threaten the barman,attack
+pub_entry,burn the barman,attack
+pub_entry,steal from the bar,take
+pub_entry,pick the pocket,take
+pub_entry,steal from the bar,take
+pub_entry,steal a drink,take
+pub_entry,walk out of the bar,leave
+pub_entry,get out,leave
+pub_entry,run away,leave
+pub_entry,do jumping jacks,other
+pub_entry,do nothing,other
+pub_entry,fart,other
+pub_entry,do anything else,other
