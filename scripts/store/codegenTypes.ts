@@ -1,11 +1,12 @@
 import { generate } from "@neo4j/graphql-ogm";
-import { ogm } from "../../store/models";
+import { ogm } from "../../app/store/models";
 import * as path from "path";
 
 const outFile = path.join(
   __dirname,
   "..",
   "..",
+  "app",
   "store",
   "codegen-model-types.ts"
 );

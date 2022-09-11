@@ -3,6 +3,7 @@
 ## Setup
 
 - install neo4j desktop
+- install the neo4j APOC plugin
 - npm install
 
 ## Development

@@ -1,10 +1,15 @@
-import { driver } from "../../store/driver";
-import { ogm, Scene } from "../../store/models";
+import { driver } from "../../app/store/driver";
+import { ogm, Scene } from "../../app/store/models";
 
+const dump = async () => {
+  const session = driver.session();
+  await session.run("MATCH (n) DETACH DELETE n");
+};
 async function main() {
   await ogm.init();
-
   console.log("STARTING DB SCRIPT");
+  console.log("DUMPING EXISTING NODES");
+  await dump();
   const _startingScene = await Scene.create({
     input: [
       {
